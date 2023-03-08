@@ -2,4 +2,6 @@ h1 {
     color: #ff1a1a;
   };
 
-  div{background-color: #94b8b8;}
+.contenido {
+    background-color: #cf9d15cb;
+};
