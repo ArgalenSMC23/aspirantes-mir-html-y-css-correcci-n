@@ -1,0 +1,46 @@
+.form{
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 20 px;
+    background: linear-gradient(#bd09b7,#6b4cf5);
+    box-shadow: 10px 10px 5px rgb(106, 106, 106);
+    position: ;
+}
+
+h1, label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#email, #password,#Género {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+.genero {
+    width: 100%;
+}
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px, 5px, 15px, 15px;
+}
+.button{
+    text-align: right;
+}
+
+/* Adaptación Responsive (Mobile first) */
+
+@media (max-width:500px){
+    .form{
+        width: 300px;
+    }
+}
+@media (min-width:500px){
+    .form{
+        width: 300px;
+    }
+}
